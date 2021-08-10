@@ -2650,7 +2650,7 @@ fieldset:disabled a.btn {
 
 .btn-warning.focus,
 .btn-warning:focus {
-    box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5)
+    box-shadow: 0 0 0 .2rem rgba(7, 77, 255, 0.5)
 }
 
 .btn-warning.disabled,
@@ -2671,7 +2671,7 @@ fieldset:disabled a.btn {
 .btn-warning:not(:disabled):not(.disabled).active:focus,
 .btn-warning:not(:disabled):not(.disabled):active:focus,
 .show>.btn-warning.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5)
+    box-shadow: 0 0 0 .2rem rgba(7, 90, 255, 0.5)
 }
 
 .btn-danger {
@@ -2955,7 +2955,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-warning.focus,
 .btn-outline-warning:focus {
-    box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5)
+    box-shadow: 0 0 0 .2rem rgba(7, 98, 255, 0.5)
 }
 
 .btn-outline-warning.disabled,
@@ -2975,7 +2975,7 @@ fieldset:disabled a.btn {
 .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus,
 .show>.btn-outline-warning.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5)
+    box-shadow: 0 0 0 .2rem rgba(7, 77, 255, 0.5)
 }
 
 .btn-outline-danger {
@@ -6035,9 +6035,9 @@ button.close {
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    transition: -webkit-transform .6s ease;
-    transition: transform .6s ease;
-    transition: transform .6s ease, -webkit-transform .6s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
@@ -6106,7 +6106,7 @@ button.close {
 
 .carousel-fade .carousel-item {
     opacity: 0;
-    transition-duration: .6s;
+    transition-duration: .2s;
     transition-property: opacity
 }
 
@@ -9177,8 +9177,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
@@ -9240,6 +9240,3 @@ a.text-dark:hover {
         border: 1px solid #dee2e6!important
     }
 }
-
-
-/*# sourceMappingURL=bootstrap.min.css.map */
