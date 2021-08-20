@@ -217,10 +217,10 @@ button {
 }
 
 .logo {
-    width: 100%;
+    width: 50%;
     float: left;
     text-align: center;
-    padding-top: 10px;
+    padding-top: -10px;
 }
 
 .image_6 {
@@ -306,7 +306,7 @@ button {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0 16px;
+    padding: 0px;
     padding-top: 0;
     font-size: 20px;
     color: #ffffff;
@@ -437,6 +437,26 @@ button {
     float: left;
 }
 
+.text-block h1 {
+    font-weight: bold;
+}
+
+.text-block h1,
+p {
+    color: #ffffff;
+    margin: 0%;
+    margin-left: 20px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    padding: 1px;
+}
+
 .images_section_2 {
     width: 100%;
     float: left;
@@ -526,6 +546,7 @@ button {
 .social_icon {
     width: 100%;
     float: left;
+    padding-top: 10px;
 }
 
 .email-bt {
@@ -554,6 +575,10 @@ button {
     border: 0px;
     height: 50px;
     padding: 12px 15px 0px 15px;
+}
+
+.form-group {
+    padding-top: 20px;
 }
 
 .send_bt {
