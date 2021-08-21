@@ -665,6 +665,7 @@ ul.location li img {
     font-size: 16px;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
 }
 
 #carouselExampleIndicators a.carousel-control-prev {
@@ -796,6 +797,10 @@ ul.location li img {
 }
 
 .margin {
+    margin-bottom: 30px;
+}
+
+.mrgn {
     margin-bottom: 30px;
 }
 
