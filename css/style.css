@@ -754,3 +754,102 @@ ul.location li img {
     color: #091e30;
     border-radius: 100%;
 }
+
+.body {
+    background-color: #305ff7;
+}
+
+.brand-bg .brand_box {
+    background: #fff;
+    text-align: center;
+    padding: 80px 0px 30px 0px;
+}
+
+.brand-bg .brand_box>img {
+    height: 200px;
+    width: auto;
+}
+
+.brand-bg .brand_box h3 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #131313;
+    padding: 17px 0px 0px 0px;
+}
+
+.brand-bg {
+    background: #ebebeb;
+    padding: 90px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand-bg .brand_box span {
+    display: block;
+    color: #19449b;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 3px;
+}
+
+.brand-bg .brand_box i {
+    padding: 0px 2px;
+}
+
+.margin {
+    margin-bottom: 30px;
+}
+
+.read-more {
+    font-family: poppins;
+    max-width: 212px;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: block;
+    background: #000;
+    color: #fff !important;
+    padding: 12px 0px;
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 32px;
+    margin-top: 40px
+}
+
+.read-more:hover {
+    background: #305ff7;
+}
+
+.titlepage {
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: #1e51f8;
+    border: 0px;
+    margin-left: 100px;
+}
+
+.dropdown-menu a {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.dropdown-menu a:hover {
+    color: #111111;
+}
+
+.arrow:hover.dropdown-menu {
+    display: block;
+}
+
+.brand_box:hover h3 {
+    color: #305ff7;
+}
