@@ -792,6 +792,11 @@ ul.location li img {
     padding-bottom: 3px;
 }
 
+span {
+    padding-left: 40px;
+    text-align: left;
+}
+
 .brand-bg .brand_box i {
     padding: 0px 2px;
 }
