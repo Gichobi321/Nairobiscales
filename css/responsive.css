@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
     .logo {
-        text-align: center;
+        text-align: right;
     }
     .cart-content-right {
         padding-bottom: 5px;
@@ -570,10 +570,10 @@
         padding-top: 0px;
     }
     .logo {
-        float: inherit;
-        padding-bottom: 15px;
+        float: right;
         text-align: right;
         padding-right: 20px;
+        margin-top: 0%;
     }
     .btn-primary {
         max-width: 126px;

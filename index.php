@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- mobile metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- site metas -->
-<title>Nairobiscales</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">	
-<!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<!-- style css -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- Responsive-->
-<link rel="stylesheet" href="css/responsive.css">
-<!-- fevicon -->
-<link rel="icon" href="images/icon.png" type="image/gif" />
-<!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-<!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-
-</head>
+<?php include ('./components/header.php')?>
 <body>
 	<!--header section start -->
 	<div class="header_section">
@@ -40,31 +11,7 @@
 			    </div>
 			    <div class="col-sm-4 col-lg-5">
 			    	<div class="menu-area">
-                    <nav class="navbar navbar-expand-lg ">
-                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
-                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                               <li class="nav-item active"><a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
-                               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-							    <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Scales</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="food.html">food scales</a></li>
-								<li><a href="industurial.html">industurial scales</a></li>
-                                <li><a href="crane.html">Crane scales</a></li>
-                                <li><a href="medical.html">Medical scales</a></li>
-                                <li><a href="jewel.html">Jewel scales</a></li>
-                                <li><a href="animal.html">Animal scales</a></li>
-                                <li><a href="retail.html">Retail scales</a></li>
-                                <li><a href="access.html">Accessories</a></li>
-                            </ul>
-                               <li class="nav-item"><a class="nav-link" href="#company">Company</a></li>
-                               <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+					<?php include ('./components/nav.php')?>  
                 </div>
 			    </div>
 		</div>
@@ -85,8 +32,8 @@
 				    <div class="col-sm-5">
 				    	<h1 class="trends_text">Nairobi</h1>
 				    	<h1 class="scales_text">Scales</h1>
-				    	<P class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </P>
-				    	<a class="scales_bt" href="#scales">scales</a>
+				    	<P class="lorem_text">ONE STOP shop for all your weighing solutions. We provide two years warranty on industurial and retail scale with free service within first two years</P>
+				    	<a class="scales_bt" href="#scales">Products</a>
 				    </div>
 				    <div class="col-sm-6">
 				    	<div><img src="images/img-3.png"></div>
@@ -103,8 +50,8 @@
 				    <div class="col-sm-5">
 						<h1 class="trends_text">Nairobi</h1>
 				    	<h1 class="scales_text">Scales</h1>
-				    	<P class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </P>
-				    	<a class="scales_bt" href="#scales">scales</a>
+				    	<P class="lorem_text">ONE STOP shop for all your weighing solutions.We provide two years warranty on industurial and retail scale with free service within first two years</P>
+				    	<a class="scales_bt" href="#scales">Products</a>
 				    </div>
 				    <div class="col-sm-6">
 				    	<div><img src="images/img-2.png"></div>
@@ -121,8 +68,8 @@
 				    <div class="col-sm-5">
 				    	<h1 class="trends_text">Nairobi</h1>
 				    	<h1 class="scales_text">Scales</h1>
-				    	<P class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </P>
-						<a class="scales_bt" href="#scales">scales</a>
+				    	<P class="lorem_text">ONE STOP shop for all your weighing solutions. We provide two years warranty on industurial and retail scale with free service within first two years</P>
+						<a class="scales_bt" href="#scales">Products</a>
 				    </div>
 				    <div class="col-sm-6">
 				    	<div><img src="images/img-3.png"></div>
@@ -139,15 +86,10 @@
 	<div class="layout_padding about_section " id="about">
 		<div class="container">
 			<h1 class="about_taital">About <span style="background-color: #305ff7; color: #fff; padding: 0px 5px;">Us</span></h1>
-			<p class="market_text">making it look like readable English. Many desktop publishing</p>
 			<div class="about_bg">
 				<div class="row">
 					<div class="col-md-8">
-						<p class="about_long_text">
-						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution o
-                        f letters, a
-                        s opposed to using 'Content h
-                        ere, content here', making it look like readable English. Many desktop publishing packages and web</p>
+						<p class="about_long_text">Nairobi scales is ONE STOP shop for all your weighing solutions. we provide a range of variety and model to suit you industurial, domestic and retail weighing needs. We stock a range of selected brands that are approved by weight and measures, a department of ministry of trade. We offer two years warranty on industurial and retail scale with free service within first two years.<br>We also offer AFTER SALE services which we offer into Annual services and maintainance at all reasonable fee.<b><br>Nairobi Scales a HOME OF TOP BRANDS</b></p>
 					</div>
 					<div class="col-md-4">
 						<div class="table_img"><img src="images/about-img.png"></div>
@@ -161,7 +103,7 @@
 	<div class="our_scales_section layout_padding" id="scales">
 		<div class="container">
 			<h1 class="about_taital">categ<span style="background-color: #305ff7; color: #fff; padding: 0px 5px;">ories</span></h1>
-			<p class="market_text">Some of the scales we have in our stores!</p>
+			<p class="market_text">Some of the scales we have in our stores! click on the categoriy name to view products</p>
 		</div>
 	</div>
 	<div class="our_section_2">
@@ -174,22 +116,22 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
                         <div class="brand_box">
-                            <img src="images/6.png" alt="img" />
-                            <a href="food.html"><h3>food <strong>Scales</strong></h3></a>
+                            <img src="images/food3.png" alt="img" />
+                            <a href="food.php"><h3>food <strong>Scales</strong></h3></a>
 
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
                         <div class="brand_box">
                             <img src="images/industurial8.png" alt="img" />
-                            <a href="industurial.html"><h3>Industurial <strong>Scales</strong></h3></a>
+                            <a href="industurial.php"><h3>Industurial <strong>Scales</strong></h3></a>
                             
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
                         <div class="brand_box">
                             <img src="images/crane2.png" alt="img" />
-                            <a href="crane.html"><h3>Crane <strong>Scales</strong></h3></a>
+                            <a href="crane.php"><h3>Crane <strong>Scales</strong></h3></a>
                             
                         </div>
                     </div>
@@ -197,35 +139,35 @@
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                         <div class="brand_box">
                             <img src="images/medical3.png" alt="img" />
-                            <a href="medical.html"><h3>Medical <strong>Scales</strong></h3></a>
+                            <a href="medical.php"><h3>Medical <strong>Scales</strong></h3></a>
                             
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
                         <div class="brand_box">
                             <img src="images/jewel2.png" alt="img" />
-                            <a href="jewel.html"><h3>Jewel <strong>Scales</strong></h3></a>
+                            <a href="jewel.php"><h3>Jewel <strong>Scales</strong></h3></a>
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mrgn">
                         <div class="brand_box">
-                            <img src="images/6.png" alt="img" />
-                            <a href="animal.html"><h3>animal <strong>Scales</strong></h3></a>
+                            <img src="images/animal2.png" alt="img" />
+                            <a href="animal.php"><h3>animal <strong>Scales</strong></h3></a>
                             
                         </div>
                     </div>
 					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 ">
                         <div class="brand_box">
                             <img src="images/retail2.png" alt="img" />
-                            <a href="retail.html"><h3>Retail <strong>Scales</strong></h3></a>
+                            <a href="retail.php"><h3>Retail <strong>Scales</strong></h3></a>
                             
                         </div>
                     </div>
 					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                         <div class="brand_box">
-                            <img src="images/6.png" alt="img" />
-                            <a href="access.html"><h3><strong>Accessories</strong></h3></a>
+                            <img src="images/accessory1.png" alt="img" />
+                            <a href="access.php"><h3><strong>Accessories</strong></h3></a>
                             
                         </div>
                     </div>
@@ -273,7 +215,7 @@
     	<div class="container">
     		<div class="contact_section_inner">
     			<div class="contact_main">
-				<form action="" method="POST">
+				<form action="https://formspree.io/f/xknkplna" method="POST">
     				<h1 class="contact_text">Contact Us</h1>
     				<div class="input_main">
     					<div class="row">
@@ -308,8 +250,8 @@
 							<div class="col-sm-6 col-lg-3">
     							<div class="social_icon">
     								<ul>
-										<li><a href="https://web.facebook.com/profile.php?id=100054488528424"><img src="images/fb-icon.png"></a></li>
-			    						<li><a href="https://web.facebook.com/profile.php?id=100054488528424"><img src="images/twitter-icon.png"></a></li>
+										<li><a href="https://web.facebook.com/profile.php?id=100054488528424"><i class="fa fa-facebook fa-lg"></i></a></li>
+			    						<li><a href="https://web.facebook.com/profile.php?id=100054488528424"><i class="fa fa-twitter fa-lg"></i></a></li>
     								</ul>
     							</div>
     						</div>
@@ -322,58 +264,8 @@
 
 	<!-- contact section end -->
 	<!-- footer section start -->
-	<div class="footer_section layout_padding">
-		<div class="container">
-			<div class="row">
-			    <div class="col-md-12">
-			    	<div class="useful_main border_right0">
-			    		<h2 class="useful_text">Menus</h2>
-			    		<ul >
-			    			<li><a href="index.html">Home</a></li>
-			    			<li><a href="#about">About </a></li>
-			    			<li><a href="#company">Company</a></li>
-			    			<li><a href="#scales">scales</a></li>
-			    			<li><a href="#contact">Contact Us</a></li>
-			    		</ul>			    		
-			    	</div>
-			    </div>
-			    <div class="col-md-12 useful_main border_right0">
-				   <h2 class="useful_text">Address</h2>
-                     <ul class="location">
-			    			<li><img src="images/map-icon.png">Machakos</li>
-			    			<li><img src="images/call-icon.png"><a href="tel:0202102296">0202102296</a>|<a href="tel:0797146765">0797146765</a>|<a href="tel:0797146766">0797146766</a>|<a href="tel:0782146765">0782146765</a>|<a href="tel:0797146766">0797146766</a></li>
-			    			<li><img src="images/email-icon.png"><a href = "mailto: sales@nairobiscales.co.ke">sales@nairobiscales.co.ke</a></li>
-			    		
-			    		</ul>
-
-			    </div>
-			    </div>
-			</div>
-				<p class="copyright_text">Nairobi scales &copy;2021.All Right Reserved</p>
-		</div>
-	</div>
-	<!-- footer section end -->	
-	<!-- copyright section start -->	
-
-	<!-- copyright section end -->	
-
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-      <script>
-         $(document).ready(function(){
-         $(".fancybox").fancybox({
-         openEffect: "none",
-         closeEffect: "none"})});
-     </script>	
+<?php include ('./components/footer.php')?>
+	
 
 </body>
 </html>

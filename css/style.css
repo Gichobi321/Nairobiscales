@@ -318,26 +318,27 @@ button {
 }
 
 .scales_text {
-    width: 100%;
+    width: 90%;
     float: left;
-    font-size: 84px;
+    font-size: 75px;
     color: #060a0b;
     font-weight: bold;
+    margin-top: -20px;
 }
 
 .trends_text {
-    width: 100%;
+    width: 90%;
     float: left;
-    font-size: 84px;
+    font-size: 60px;
     color: #ffffff;
     font-weight: bold;
-    line-height: 75px;
+    margin-bottom: -20px;
 }
 
 .lorem_text {
-    width: 100%;
+    width: 90%;
     float: left;
-    font-size: 17px;
+    font-size: 14px;
     color: #ffffff;
     margin-left: 0px;
 }
@@ -346,7 +347,7 @@ button {
     width: 40%;
     float: left;
     background-color: #ffffff;
-    font-size: 17px;
+    font-size: 14px;
     color: #121010;
     height: 50px;
     font-weight: 700;
@@ -354,7 +355,7 @@ button {
 }
 
 .scales_bt {
-    width: 30%;
+    width: 50%;
     float: left;
     background-color: #000000;
     font-size: 27px;
@@ -363,6 +364,7 @@ button {
     font-weight: bold;
     margin: 25px;
     text-align: center;
+    border-radius: 50px;
 }
 
 .about_section {
@@ -381,7 +383,7 @@ button {
 .market_text {
     width: 100%;
     float: left;
-    font-size: 17px;
+    font-size: 14px;
     color: #0d0909;
     margin-left: 0px;
 }
@@ -549,6 +551,13 @@ p {
     padding-top: 10px;
 }
 
+.social_icon i {
+    color: #305ff7;
+    border-radius: 50%;
+    background: #111111;
+    padding: 10px;
+}
+
 .email-bt {
     width: 100%;
     float: left;
@@ -587,8 +596,9 @@ p {
     background-color: #000000;
     color: #ffffff;
     height: 50px;
-    margin-top: 17px;
+    margin-top: 14px;
     font-size: 26px;
+    border-radius: 50px;
 }
 
 .footer_section {
@@ -638,7 +648,7 @@ ul.location li img {
 
 .useful_main ul li a {
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     padding: 0px 20px;
 }
 
@@ -775,7 +785,7 @@ ul.location li img {
     font-size: 27px;
     font-weight: bold;
     color: #131313;
-    padding: 17px 0px 0px 0px;
+    padding: 14px 0px 0px 0px;
 }
 
 .brand-bg {
@@ -819,7 +829,7 @@ span {
     color: #fff !important;
     padding: 12px 0px;
     width: 100%;
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
     border-radius: 32px;
     margin-top: 40px
